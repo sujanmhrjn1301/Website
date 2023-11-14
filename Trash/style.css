@@ -1,0 +1,119 @@
+/* Global Styles */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+h1, h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Form Styles */
+
+form {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+label {
+    margin-right: 10px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    border: none;
+    flex: 1;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Result Styles */
+
+.result {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#profile_picture {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+/* Buttons Styles */
+
+.buttons {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#view_button {
+    margin-right: 10px;
+    background-color: #5cb85c;
+    transition: background-color 0.3s ease;
+}
+
+#view_button:hover {
+    background-color: #449d44;
+}
+
+a.download-link {
+    text-decoration: none;
+    color: #fff;
+}
+
+a.download-link button {
+    background-color: #f0ad4e;
+    transition: background-color 0.3s ease;
+}
+
+a.download-link button:hover {
+    background-color: #ec971f;
+}
+
+/* Responsive Styles */
+
+@media screen and (max-width: 600px) {
+    .container {
+        padding: 10px;
+    }
+
+    input[type="text"] {
+        padding: 8px;
+    }
+
+    button {
+        padding: 8px 15px;
+    }
+}
